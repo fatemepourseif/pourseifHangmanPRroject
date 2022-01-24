@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HANGMAN</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <p>Hanging Man</p>
+        <div>
+          <div id="app"></div>
+        </div>
+      </header>
+      <div class="wrapper">
+        <div class="wrapper__title">
+            <p>Help This Man To Correct The Word:</p>
+        </div>
+        <div id="buttons"></div>
+        <p id="categoryName"></p>
+        <div id="hold">
+            <p>correct letters</p>
+        </div>
+        <p id="myLives"></p>
+        <canvas id="stickman"
+          >this text will show if the browser does not support html5 canvas
+          tag</canvas
+        >
+      </div>
+    </div>
+  </body>
+  <script src="components/js/script.js"></script>
+</html>
